@@ -39,31 +39,14 @@
   </header>
 
   <section class="hero" id="hero">
-    <div class="hero-bg">
-      <img src="mcfoto.png" alt="" class="hero-img" />
-      <div class="hero-overlay"></div>
-    </div>
+    <div class="hero-bg"><img src="mcfoto.png" alt="" class="hero-img" /><div class="hero-overlay"></div></div>
     <div class="hero-content container">
       <div class="hero-badge reveal">✦ Magyar Minecraft Közösség</div>
-      <h1 class="hero-title reveal">
-        <span class="pixel-accent">Nebula</span>Network
-      </h1>
-      <p class="hero-sub reveal">
-        Magyar Minecraft szerver — a KitPvP megnyitott, a Survival fejlesztése pedig folyamatban!
-      </p>
+      <h1 class="hero-title reveal"><span class="pixel-accent">Nebula</span>Network</h1>
+      <p class="hero-sub reveal">Magyar Minecraft szerverek — KitPvP és Survival vár rád, csatlakozz egy aktív közösséghez 2025 óta.</p>
       <div class="hero-actions reveal">
         <a href="#join" class="btn btn-primary btn-lg">Játék indítása</a>
         <a href="#discord" class="btn btn-ghost btn-lg">Discord</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="ip-bar" id="join">
-    <div class="container ip-bar-inner reveal">
-      <div class="ip-label">Szerver cím</div>
-      <div class="ip-copy-wrap">
-        <code class="ip-address" id="serverIp">play.nebulanetwork.hu</code>
-        <button class="btn btn-copy" id="copyIp" type="button">Másolás</button>
       </div>
     </div>
   </section>
@@ -72,54 +55,51 @@
     <div class="container">
       <div class="section-header reveal">
         <span class="section-tag">Játékmódok</span>
-        <h2>Szerver <span class="gradient-text">Játékmódok</span></h2>
+        <h2>Szervereink</h2>
       </div>
-      <div class="modes-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+      <div class="features-grid">
         <article class="mode-card reveal" style="--accent: #ef4444">
           <div class="mode-img-wrap"><img src="kitpvp.png" alt="KitPvP" class="mode-img" /></div>
           <div class="mode-body">
             <h3>KitPvP</h3>
-            <p><strong>Megnyílt!</strong> Ugorj be az arénába, válaszd ki a kitjeidet és küzdj meg másokkal a ranglistáért.</p>
+            <p><strong>Megnyílt!</strong> Ugorj be az arénába, válaszd ki a kitjeidet és küzdj meg másokkal!</p>
           </div>
         </article>
         <article class="mode-card reveal" style="--accent: #a855f7">
           <div class="mode-img-wrap"><img src="mcfoto.png" alt="Survival" class="mode-img" /></div>
           <div class="mode-body">
             <h3>Survival</h3>
-            <p><strong>Fejlesztés alatt!</strong> Dolgozunk a Szezon 2 előkészítésén, hogy a lehető legjobb élményt nyújthassuk.</p>
+            <p>Klasszikus túlélés. <strong>A Szezon 2 fejlesztése folyamatban...</strong></p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section news" id="hirek">
+  <section class="section team">
     <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">Hírek</span>
-        <h2>Legfrissebb <span class="gradient-text">frissítések</span></h2>
-      </div>
-      <div class="news-grid" style="display: grid; gap: 2rem;">
-        <article class="news-card news-card--featured reveal">
-          <div class="news-badge" style="background: #ef4444;">Most megnyílt</div>
-          <h3>KitPvP — Csatlakozz az arénához!</h3>
-          <p>Örömmel jelentjük be, hogy a KitPvP szerverünk hivatalosan is elérhető! Készítsd fel a fegyvereidet és vágj bele a harcba még ma.</p>
-        </article>
-        <article class="news-card reveal">
-          <div class="news-badge" style="background: #a855f7;">Fejlesztés alatt</div>
-          <h3>Survival — Szezon 1 készülőben</h3>
-          <p>A Survival szerverünk fejlesztése folyamatosan zajlik. Új rendszerekkel és izgalmas tartalommal térünk vissza a következő szezonban.</p>
-        </article>
+      <div class="section-header reveal"><h2>Staffunk</h2></div>
+      <div class="team-grid team-grid--staff">
+        <div class="team-card reveal"><img src="tulaj.png" alt="Quarztee" class="team-photo" /><h3>Quarztee</h3><span class="team-role owner">Survival Manager & Főtulajdonos</span></div>
+        <div class="team-card reveal"><img src="developer.jpeg" alt="dewy" class="team-photo" /><h3>dewy</h3><span class="team-role developer">KitPvP Manager & Tulajdonos</span></div>
+        <div class="team-card reveal"><img src="manager.png" alt="Bence1578" class="team-photo" /><h3>Bence1578</h3><span class="team-role manager">Manager</span></div>
+        <div class="team-card reveal">
+          <img src="petike.png" alt="Petikeee" class="team-photo" />
+          <h3>Petikeee</h3>
+          <span class="team-role" style="color: #60a5fa; font-weight: bold;">Junior Moderátor</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section about" id="rolunk">
-    <div class="container about-grid">
-      <div class="about-text reveal">
-        <span class="section-tag">Rólunk</span>
-        <h2>A <span class="gradient-text">Nebula</span> mögött</h2>
-        <p>A NebulaNetwork egy magyar Minecraft közösség. 2025 óta futunk, a KitPvP már elérhető, míg a Survival fejlesztése a következő nagy dobásunk.</p>
+  <section class="section discord-section" id="discord">
+    <div class="container discord-grid">
+      <div class="discord-content reveal">
+        <h2>Csatlakozz Discord szerverünkhöz!</h2>
+        <a href="https://discord.com/channels/1490031710564388916" class="btn btn-discord btn-lg">Csatlakozás</a>
+      </div>
+      <div class="discord-widget-wrap reveal">
+        <iframe src="https://discord.com/widget?id=1490031710564388916&theme=dark" width="350" height="500" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" title="Discord"></iframe>
       </div>
     </div>
   </section>
