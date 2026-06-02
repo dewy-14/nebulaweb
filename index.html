@@ -49,33 +49,12 @@
         <span class="pixel-accent">Nebula</span>Network
       </h1>
       <p class="hero-sub reveal">
-        Magyar Survival szerver — építs, túlélj és csatlakozz egy aktív közösséghez 2025 óta.
+        Magyar Minecraft szerver — a KitPvP megnyitott, a Survival fejlesztése pedig folyamatban!
       </p>
       <div class="hero-actions reveal">
-        <a href="#join" class="btn btn-primary btn-lg">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v16H4V4zm2 2v12h12V6H6zm2 2h8v2H8V8zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg>
-          Játék indítása
-        </a>
+        <a href="#join" class="btn btn-primary btn-lg">Játék indítása</a>
         <a href="#discord" class="btn btn-ghost btn-lg">Discord</a>
       </div>
-      <div class="hero-stats reveal">
-        <div class="stat-pill">
-          <span class="stat-dot online"></span>
-          <span><strong>Mindig</strong> elérhető szerver</span>
-        </div>
-        <div class="stat-pill">
-          <span class="stat-icon">🎮</span>
-          <span><strong>Survival</strong> játékmód</span>
-        </div>
-        <div class="stat-pill">
-          <span class="stat-icon">👥</span>
-          <span><strong>100+</strong> Discord tag</span>
-        </div>
-      </div>
-    </div>
-    <div class="scroll-hint" aria-hidden="true">
-      <span>Görgess le</span>
-      <div class="scroll-arrow"></div>
     </div>
   </section>
 
@@ -84,198 +63,35 @@
       <div class="ip-label">Szerver cím</div>
       <div class="ip-copy-wrap">
         <code class="ip-address" id="serverIp">play.nebulanetwork.hu</code>
-        <button class="btn btn-copy" id="copyIp" type="button" title="Másolás">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
-          Másolás
-        </button>
-      </div>
-      <span class="ip-version">Java Edition — 1.20.x</span>
-    </div>
-  </section>
-
-  <section class="section features" id="szerver">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">Miért mi?</span>
-        <h2>Egyedi élmény, <span class="gradient-text">végtelen lehetőség</span></h2>
-        <p>Survival fókusz, rendszeres eventek és egy közösség, ahol 2025 óta együtt játszunk.</p>
-      </div>
-      <div class="features-grid">
-        <article class="feature-card reveal">
-          <div class="feature-icon">🌍</div>
-          <h3>Survival Világ</h3>
-          <p>Klasszikus túlélés — építs, farmolj és fejleszd a bázisodat a közös világban.</p>
-        </article>
-        <article class="feature-card reveal">
-          <div class="feature-icon">🏆</div>
-          <h3>Rangrendszer</h3>
-          <p>Szerezz rangokat aktivitással, eventeken való részvétellel és közösségi hozzájárulással.</p>
-        </article>
-        <article class="feature-card reveal">
-          <div class="feature-icon">🎉</div>
-          <h3>Heti Eventek</h3>
-          <p>PvP tornák, építő versenyek, kincsvadászat és Discord nyereményjátékok minden héten.</p>
-        </article>
-        <article class="feature-card reveal">
-          <div class="feature-icon">🛡️</div>
-          <h3>Anti-Cheat</h3>
-          <p>Fair play minden játékosnak — aktív staff és modern védelem a csalók ellen.</p>
-        </article>
-        <article class="feature-card reveal">
-          <div class="feature-icon">💎</div>
-          <h3>Economy</h3>
-          <p>Piactér, aukciók és kereskedelem — építsd fel birodalmadat a szerveren.</p>
-        </article>
-        <article class="feature-card reveal">
-          <div class="feature-icon">🌸</div>
-          <h3>Közösség</h3>
-          <p>Barátságos magyar közösség, ahol mindenki otthon érezheti magát.</p>
-        </article>
+        <button class="btn btn-copy" id="copyIp" type="button">Másolás</button>
       </div>
     </div>
   </section>
 
-  <section class="section modes">
+  <section class="section modes" id="szerver">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag">Játékmód</span>
-        <h2><span class="gradient-text">Survival</span></h2>
-        <p>Egy játékmód, egy világ — nálunk csak Survival van.</p>
+        <span class="section-tag">Játékmódok</span>
+        <h2>Szerver <span class="gradient-text">Játékmódok</span></h2>
       </div>
-      <div class="mode-single reveal">
-        <div class="mode-card" style="--accent: #a855f7">
-          <div class="mode-img-wrap">
-            <img src="mcfoto.png" alt="Survival" class="mode-img" />
+      <div class="modes-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <article class="mode-card reveal" style="--accent: #ef4444">
+          <div class="mode-img-wrap"><img src="kitpvp.png" alt="KitPvP" class="mode-img" /></div>
+          <div class="mode-body">
+            <h3>KitPvP</h3>
+            <p><strong>Megnyílt!</strong> Ugorj be az arénába, válaszd ki a kitjeidet és küzdj meg másokkal a ranglistáért.</p>
           </div>
+        </article>
+        <article class="mode-card reveal" style="--accent: #a855f7">
+          <div class="mode-img-wrap"><img src="mcfoto.png" alt="Survival" class="mode-img" /></div>
           <div class="mode-body">
             <h3>Survival</h3>
-            <p>Klasszikus túlélés land védelemmel, gazdasággal és közösségi eventekkel. A Szezon 2 hamarosan érkezik!</p>
+            <p><strong>Fejlesztés alatt!</strong> Dolgozunk a Szezon 2 előkészítésén, hogy a lehető legjobb élményt nyújthassuk.</p>
           </div>
-        </div>
+        </article>
       </div>
     </div>
   </section>
-
-  <section class="section about" id="rolunk">
-    <div class="container about-grid">
-      <div class="about-visual reveal">
-        <div class="about-frame">
-          <img src="mcfoto.png" alt="NebulaNetwork világ" />
-          <div class="about-glow"></div>
-        </div>
-        <div class="about-float-card">
-          <img src="logo.png" alt="" width="48" height="48" />
-          <div>
-            <strong>2025 óta</strong>
-            <span>Aktív közösség</span>
-          </div>
-        </div>
-      </div>
-      <div class="about-text reveal">
-        <span class="section-tag">Rólunk</span>
-        <h2>A <span class="gradient-text">Nebula</span> mögött</h2>
-        <p>
-          A NebulaNetwork egy magyar Survival Minecraft szerver. 2025 óta futunk, és folyamatosan fejlesztjük
-          a világot — jelenleg a Szezon 2 előkészítése zajlik.
-        </p>
-        <ul class="about-list">
-          <li>
-            <span class="check">✓</span>
-            Magyar nyelvű support és közösség
-          </li>
-          <li>
-            <span class="check">✓</span>
-            Aktív staff csapat 7 nap 24 órában
-          </li>
-          <li>
-            <span class="check">✓</span>
-            Rendszeres frissítések és új tartalmak
-          </li>
-          <li>
-            <span class="check">✓</span>
-            Ingyenes játék — pay-to-win nélkül
-          </li>
-        </ul>
-        <a href="#kapcsolat" class="btn btn-primary">Ismerj meg minket</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section discord-section" id="discord">
-    <div class="container discord-grid">
-      <div class="discord-content reveal">
-        <span class="section-tag">Közösség</span>
-        <h2>Csatlakozz Discord szerverünkhöz!</h2>
-        <ul class="discord-features">
-          <li>
-            <div class="discord-feat-icon">🎧</div>
-            <div>
-              <strong>Gyors Support</strong>
-              <p>Segítőkész staff csapatunk segít kérdés esetén.</p>
-            </div>
-          </li>
-          <li>
-            <div class="discord-feat-icon">⭐</div>
-            <div>
-              <strong>Gyakori Eventek</strong>
-              <p>Gyakran tartunk eventeket discord pódiumban.</p>
-            </div>
-          </li>
-          <li>
-            <div class="discord-feat-icon">🎁</div>
-            <div>
-              <strong>Nyereményjátékok</strong>
-              <p>Rangokat és egyéb jutalmakat sorsolunk ki tagoknak.</p>
-            </div>
-          </li>
-        </ul>
-        <p class="discord-members-note">100+ tag a Discord szerveren</p>
-        <a href="https://discord.com/channels/1490031710564388916" class="btn btn-discord btn-lg" target="_blank" rel="noopener">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
-          Csatlakozás
-        </a>
-      </div>
-      <div class="discord-widget-wrap reveal">
-        <iframe
-          src="https://discord.com/widget?id=1490031710564388916&theme=dark"
-          width="350"
-          height="500"
-          allowtransparency="true"
-          frameborder="0"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          title="NebulaNetwork Discord"
-          class="discord-iframe"
-        ></iframe>
-      </div>
-    </div>
-  </section>
-
-  <section class="section team">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">Csapat</span>
-        <h2>Ismerd meg a <span class="gradient-text">Staffot</span></h2>
-      </div>
-      <div class="team-grid team-grid--staff">
-        <div class="team-card reveal">
-          <img src="tulaj.png" alt="quartzee" class="team-photo" />
-          <h3>quartzee</h3>
-          <span class="team-role owner">Tulajdonos</span>
-        </div>
-        <div class="team-card reveal">
-          <img src="manager.png" alt="Bence1578" class="team-photo" />
-          <h3>Bence1578</h3>
-          <span class="team-role manager">Manager</span>
-        </div>
-        <div class="team-card reveal">
-          <img src="developer.jpeg" alt="dewy" class="team-photo" />
-          <h3>dewy</h3>
-          <span class="team-role developer">Fejlesztő</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <section class="section news" id="hirek">
     <div class="container">
@@ -283,223 +99,33 @@
         <span class="section-tag">Hírek</span>
         <h2>Legfrissebb <span class="gradient-text">frissítések</span></h2>
       </div>
-      <div class="news-grid news-grid--single">
+      <div class="news-grid" style="display: grid; gap: 2rem;">
         <article class="news-card news-card--featured reveal">
-          <div class="news-badge">Aktuális</div>
-          <div class="news-date">2026</div>
-          <h3>Szezon 2 — Hamarosan</h3>
-          <p>
-            Jelenleg a Szezon 2 előkészítése zajlik. Új világ, frissített rendszerek és izgalmas tartalmak
-            érkeznek hamarosan — kövess minket Discordon a részletekért!
-          </p>
+          <div class="news-badge" style="background: #ef4444;">Most megnyílt</div>
+          <h3>KitPvP — Csatlakozz az arénához!</h3>
+          <p>Örömmel jelentjük be, hogy a KitPvP szerverünk hivatalosan is elérhető! Készítsd fel a fegyvereidet és vágj bele a harcba még ma.</p>
+        </article>
+        <article class="news-card reveal">
+          <div class="news-badge" style="background: #a855f7;">Fejlesztés alatt</div>
+          <h3>Survival — Szezon 1 készülőben</h3>
+          <p>A Survival szerverünk fejlesztése folyamatosan zajlik. Új rendszerekkel és izgalmas tartalommal térünk vissza a következő szezonban.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section voice-tutorial" id="voicechat">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">Útmutató</span>
-        <h2>Voice Chat <span class="gradient-text">beállítása</span></h2>
-        <p>
-          A szerveren a <strong>Simple Voice Chat</strong> modot használjuk — így a játékban is beszélhetsz
-          a többiekkel, miközben játszol.
-        </p>
-      </div>
-      <ol class="tutorial-steps reveal">
-        <li class="tutorial-step">
-          <span class="tutorial-step-num">1</span>
-          <div>
-            <h3>Mod letöltése</h3>
-            <p>
-              Töltsd le a <strong>Simple Voice Chat</strong> modot a Minecraft verziódhoz és mod loaderedhez
-              (Fabric, Forge vagy NeoForge) a
-              <a href="https://modrinth.com/plugin/simple-voice-chat" target="_blank" rel="noopener">Modrinth</a>
-              vagy
-              <a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat" target="_blank" rel="noopener">CurseForge</a>
-              oldaláról. A szerverhez <strong>1.20.x</strong> verzió ajánlott.
-            </p>
-          </div>
-        </li>
-        <li class="tutorial-step">
-          <span class="tutorial-step-num">2</span>
-          <div>
-            <h3>Telepítés</h3>
-            <p>
-              Másold a letöltött <code>.jar</code> fájlt a Minecraft <code>mods</code> mappájába
-              (Indító → Verziók → Profil → Mappa megnyitása → <code>mods</code>). Indítsd újra a játékot
-              a mod betöltéséhez.
-            </p>
-          </div>
-        </li>
-        <li class="tutorial-step">
-          <span class="tutorial-step-num">3</span>
-          <div>
-            <h3>Csatlakozás a szerverre</h3>
-            <p>
-              Lépj be a szerverre: <strong>play.nebulanetwork.hu</strong>. Első belépéskor a mod kérhet
-              engedélyt a mikrofonhoz — fogadd el, különben nem fog működni a hang.
-            </p>
-          </div>
-        </li>
-        <li class="tutorial-step">
-          <span class="tutorial-step-num">4</span>
-          <div>
-            <h3>Hang beállítása a játékban</h3>
-            <p>
-              Nyomd meg a <kbd>V</kbd> billentyűt (alapértelmezett), vagy menj az
-              <strong>Esc → Beállítások → Simple Voice Chat</strong> menübe. Itt állíthatod be:
-            </p>
-            <ul class="tutorial-sublist">
-              <li>A mikrofonod és a hangszóród kimenetét</li>
-              <li>A beszéd módját (pl. nyomva tartás / folyamatos)</li>
-              <li>A hangerőt és a távolságot, ameddig hallasz másokat</li>
-            </ul>
-          </div>
-        </li>
-        <li class="tutorial-step">
-          <span class="tutorial-step-num">5</span>
-          <div>
-            <h3>Használat játék közben</h3>
-            <p>
-              A közelben lévő játékosok hallják a hangodat. Ha nem hallasz senkit, ellenőrizd, hogy nincs-e
-              némítva a mikrofonod, és hogy a Windows / rendszer hangbeállításokban is a megfelelő eszköz van kiválasztva.
-            </p>
-          </div>
-        </li>
-      </ol>
-      <div class="tutorial-help reveal">
-        <div class="tutorial-help-icon">💬</div>
-        <div>
-          <h3>Elakadtál?</h3>
-          <p>
-            Ha bármi nem működik — mod hiba, nincs hang, rossz mikrofon — írj nekünk Discordon.
-            A staff és a közösség szívesen segít beállítani.
-          </p>
-          <a href="https://discord.com/channels/1490031710564388916" class="btn btn-discord" target="_blank" rel="noopener">
-            Segítség Discordon
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section faq">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">GYIK</span>
-        <h2>Gyakori <span class="gradient-text">kérdések</span></h2>
-      </div>
-      <div class="faq-list">
-        <details class="faq-item reveal">
-          <summary>Hogyan csatlakozok a szerverhez?</summary>
-          <p>Nyisd meg a Minecraftot, menj a Multiplayer menübe, Add Server, és írd be: <strong>play.nebulanetwork.hu</strong>. Java 1.20.x verzió ajánlott.</p>
-        </details>
-        <details class="faq-item reveal">
-          <summary>Ingyenes a szerver?</summary>
-          <p>Igen! A NebulaNetwork teljesen ingyenesen játszható. Opcionális támogatás csak kozmetikai jutalmakat ad.</p>
-        </details>
-        <details class="faq-item reveal">
-          <summary>Milyen játékmód van?</summary>
-          <p>Csak Survival — egy világ, egy közösség. SkyBlock, minigame és Bedrock nincs.</p>
-        </details>
-        <details class="faq-item reveal">
-          <summary>Kell mod a voice chathez?</summary>
-          <p>
-            Igen — a <strong>Simple Voice Chat</strong> mod szükséges a kliens oldalon. Részletes lépések a
-            <a href="#voicechat">Voice Chat útmutató</a> szekcióban.
-          </p>
-        </details>
-        <details class="faq-item reveal">
-          <summary>Hogyan jelentek be csalót?</summary>
-          <p>
-            Discordon nyiss ticketet, vagy a játékban használd a <code>/helpop</code> parancsot — írd le,
-            kit és mit láttál. A staffunk utána foglalkozik vele.
-          </p>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <section class="section contact" id="kapcsolat">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">Elérhetőség</span>
-        <h2>Kapcsolat</h2>
-        <p>Lépj kapcsolatba velünk bármilyen kérdés esetén</p>
-      </div>
-      <div class="contact-grid">
-        <a href="mailto:info@nebulanetwork.hu" class="contact-card reveal">
-          <div class="contact-icon email">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          </div>
-          <h3>Email</h3>
-          <span class="contact-link">info@nebulanetwork.hu</span>
-        </a>
-        <a href="https://discord.com/channels/1490031710564388916" class="contact-card reveal" target="_blank" rel="noopener">
-          <div class="contact-icon discord">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03z"/></svg>
-          </div>
-          <h3>Discord</h3>
-          <span class="contact-link discord-color">discord.gg/nebulanetwork</span>
-        </a>
-        <a href="https://youtube.com/" class="contact-card reveal" target="_blank" rel="noopener">
-          <div class="contact-icon youtube">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          </div>
-          <h3>YouTube</h3>
-          <span class="contact-link youtube-color">@NebulaNetwork</span>
-        </a>
-        <a href="https://tiktok.com/" class="contact-card reveal" target="_blank" rel="noopener">
-          <div class="contact-icon tiktok">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.5a8.16 8.16 0 004.77 1.52V6.59a4.85 4.85 0 01-1-.1z"/></svg>
-          </div>
-          <h3>TikTok</h3>
-          <span class="contact-link tiktok-color">@nebulanetwork</span>
-        </a>
-        <a href="https://twitch.tv/" class="contact-card reveal" target="_blank" rel="noopener">
-          <div class="contact-icon twitch">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/></svg>
-          </div>
-          <h3>Twitch</h3>
-          <span class="contact-link twitch-color">twitch.tv/nebulanetwork</span>
-        </a>
+  <section class="section about" id="rolunk">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <span class="section-tag">Rólunk</span>
+        <h2>A <span class="gradient-text">Nebula</span> mögött</h2>
+        <p>A NebulaNetwork egy magyar Minecraft közösség. 2025 óta futunk, a KitPvP már elérhető, míg a Survival fejlesztése a következő nagy dobásunk.</p>
       </div>
     </div>
   </section>
 
   <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <img src="logo.png" alt="NebulaNetwork" width="56" height="56" />
-        <p>Magyar Survival Minecraft szerver — aktív közösség 2025 óta.</p>
-      </div>
-      <div class="footer-links">
-        <h4>Navigáció</h4>
-        <a href="#hero">Kezdőlap</a>
-        <a href="#szerver">Szerver</a>
-        <a href="#rolunk">Rólunk</a>
-        <a href="#discord">Discord</a>
-        <a href="#voicechat">Voice Chat</a>
-      </div>
-      <div class="footer-links">
-        <h4>Jogi</h4>
-        <a href="#">Adatvédelem</a>
-        <a href="#">Szabályzat</a>
-        <a href="#">ÁSZF</a>
-      </div>
-      <div class="footer-social">
-        <h4>Kövess minket</h4>
-        <div class="social-icons">
-          <a href="#" aria-label="Discord">💬</a>
-          <a href="#" aria-label="YouTube">▶</a>
-          <a href="#" aria-label="TikTok">♪</a>
-          <a href="#" aria-label="Twitch">📺</a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom container">
+    <div class="container footer-bottom">
       <p>© 2026 NebulaNetwork. Nem állunk kapcsolatban a Mojang Studios-szal.</p>
     </div>
   </footer>
